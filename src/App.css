@@ -1,28 +1,31 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+
 .App {
   text-align: center;
+  background-color: rgb(255, 255, 255);
+ 
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 2rem;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coin-table {
+  display:inline-block;
+  align-items: center;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coin-row td {
+  border:2px solid #cccccc;
+  width: 25vh;
 }
+
+
 
 .App-link {
   color: #61dafb;

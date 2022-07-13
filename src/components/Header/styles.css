@@ -1,0 +1,19 @@
+.App-logo {
+    height: 2rem;
+    pointer-events: none;
+  }
+
+  .App-header {
+    background-image: linear-gradient(to left, #a7bed3, #14165f);
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 36 px;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 36px;
+  }
